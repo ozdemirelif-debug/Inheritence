@@ -5,7 +5,7 @@ class MaviYaka(Çalişan):
         super().__init__(tc_adi, ad, soyad, yas, cinsiyet, uyruk, sektör, tecrübe, maaş)
         self.__yipranma_payi = yipranma_payi
 
-    def set_teşvik_primi(self, yipranma_payi):
+    def set_yipranma_payi(self, yipranma_payi):
         self.__yipranma_payi = yipranma_payi
     
     def get_yipranma_payi(self):
