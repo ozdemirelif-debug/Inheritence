@@ -7,6 +7,8 @@ import pandas as pd
 
 insan1 = İnsan(72156070558, "mücadiye", "dayanir", 35, "kadin", "arnavut")
 insan2 = İnsan(81578421848, "berkecan", "çebi", 28, "erkek", "türk")
+insan1.__str__()
+insan2.__str__()
 
 işsiz1 = İşsiz(13356975076, "didar", "kurtuldu", 22, "kadin", "avusturyali", 1, 4, 2)
 işsiz2 = İşsiz(62738570378, "doğaç", "tiraş",  23, "erkek", "afgan", 0, 0, 5)
